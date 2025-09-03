@@ -5,11 +5,21 @@ import menuHeader from './components/menuHeader.vue';
 
 <template>
 
-  <div>
+  <header>
     <menuHeader/>
-  </div>
+  </header>
+  <main>
+
+  </main>
+
+  <footer>
+
+  </footer>
 
 </template>
 
 <style scoped>
+header{
+  position: fixed;
+}
 </style>
