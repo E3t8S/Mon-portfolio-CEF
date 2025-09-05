@@ -37,18 +37,32 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
+    background-color: rgb(15, 122, 15)
 }
 img{
     width: 3rem;
 }
 .second-container{
     display: flex;
-    height: 100px;
+    height: 75px;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    padding: 0%;
     list-style-type: none;
+    background-color: rgb(15, 122, 15)
+}
+h1{
+    font-size: 37px;
+    text-decoration: underline rgb(213, 213, 47);
+    text-underline-offset: 3px;
+    color: rgb(51, 51, 227);
+}
+li{
+    font-size: 25px;
 }
 
 

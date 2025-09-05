@@ -19,7 +19,4 @@ import menuHeader from './components/menuHeader.vue';
 </template>
 
 <style scoped>
-header{
-  position: fixed;
-}
 </style>
