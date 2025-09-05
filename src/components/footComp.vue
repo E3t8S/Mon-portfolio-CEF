@@ -27,15 +27,15 @@
     .social{
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         justify-content: space-evenly;
         align-items: center;
         height: 100px;
-        margin: 10px 50px 10px 100px;
-        padding: auto;
     }
     .date{
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
         height: 50px;
