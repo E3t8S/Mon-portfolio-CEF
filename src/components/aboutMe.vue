@@ -32,9 +32,7 @@
         align-items: center;
         text-align: justify;
         text-indent: 5%;
-        width: 40%;
-        margin-left: 30%;
-        margin-right: 30%;
+        margin: 0% 30% 0% 30%;
         padding: 1em;
         border-style: double;
         border-top: hidden;

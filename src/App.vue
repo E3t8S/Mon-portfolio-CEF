@@ -4,6 +4,7 @@ import menuHeader from './components/menuHeader.vue'
 import footComp from './components/footComp.vue'
 import aboutMe from './components/aboutMe.vue'
 import AboutMe from './components/aboutMe.vue'
+import myProjects from './components/myProjects.vue'
 </script>
 
 <template>
@@ -15,6 +16,9 @@ import AboutMe from './components/aboutMe.vue'
   <main>
     <section>
      <AboutMe/>
+    </section>
+    <section>
+      <myProjects/>
     </section>
 
   </main>
@@ -31,5 +35,6 @@ import AboutMe from './components/aboutMe.vue'
   }
   main{
     background-color: yellow;
+    
   }
 </style>
