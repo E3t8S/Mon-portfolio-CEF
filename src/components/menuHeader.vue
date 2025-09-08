@@ -2,7 +2,7 @@
 
     <section class="first-container">
         <a href="#" class="photo">
-            <img src="../assets/fleche-vers-le-haut.png" alt="Flèche permettant de remonter en haut dela page">
+            <img class="fleche" src="../assets/fleche-vers-le-haut.png" alt="Flèche permettant de remonter en haut dela page">
         </a>
         <h1 class="titre">Portfolio de Etienne Saclier</h1>  
     </section>
@@ -10,7 +10,7 @@
         <nav>
             <ul class="second-container">
                 <li>
-                    <a href="#" style="text-decoration: none;">À propos de moi</a>
+                    <a href="#projects" style="text-decoration: none;">À propos de moi</a>
                 </li>
                 <li>
                     <a href="#" style="text-decoration: none;">Mes projets</a>
@@ -40,8 +40,11 @@
     align-items: center;  
     background-color: rgb(15, 122, 15)
 }
-img{
+.fleche{
     width: 3rem;
+}
+.fleche:hover{
+    width: 3.5rem;
 }
 .second-container{
     display: flex;
@@ -63,6 +66,10 @@ h1{
 }
 li{
     font-size: 25px;
+}
+nav ul li:hover{
+    text-decoration: underline rgb(213, 213, 47);
+    text-underline-offset: 3px;
 }
 
 

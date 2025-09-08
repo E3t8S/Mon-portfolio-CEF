@@ -2,10 +2,10 @@
 
     <section class="social">
         <a href="https://github.com/E3t8S" target="_blank">
-            <img src="../assets/sociale.png" alt="Lien vers le profil GitHub d'Etienne">
+            <img class="social-media" src="../assets/sociale.png" alt="Lien vers le profil GitHub d'Etienne">
         </a>
         <a href="https://www.linkedin.com/in/etienne-saclier-ba61b5249/" target="_blank">
-            <img src="../assets/linkedin.png" alt="Lien vers le profil Linkedin d'Etienne">
+            <img class="social-media" src="../assets/linkedin.png" alt="Lien vers le profil Linkedin d'Etienne">
         </a>
     </section>
     <section class="date">
@@ -39,6 +39,9 @@
         justify-content: center;
         align-items: center;
         height: 50px;
+    }
+    .social-media{
+        width: 3rem;
     }
 
 </style>
