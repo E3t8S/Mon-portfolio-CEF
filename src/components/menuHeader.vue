@@ -50,8 +50,8 @@ img{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: auto;
-    padding: 0%;
+    margin: 0;
+    padding-top: 0;
     list-style-type: none;
     background-color: rgb(15, 122, 15)
 }

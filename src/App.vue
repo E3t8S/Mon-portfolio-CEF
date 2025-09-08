@@ -1,7 +1,9 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import menuHeader from './components/menuHeader.vue'
-import footComp from './components/footComp.vue';
+import footComp from './components/footComp.vue'
+import aboutMe from './components/aboutMe.vue'
+import AboutMe from './components/aboutMe.vue'
 </script>
 
 <template>
@@ -9,7 +11,11 @@ import footComp from './components/footComp.vue';
   <header>
     <menuHeader/>
   </header>
+  
   <main>
+    <section>
+     <AboutMe/>
+    </section>
 
   </main>
 
@@ -22,5 +28,8 @@ import footComp from './components/footComp.vue';
 <style scoped>
   footer{
     background-color: rgb(15, 122, 15)
+  }
+  main{
+    background-color: yellow;
   }
 </style>
