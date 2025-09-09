@@ -21,6 +21,7 @@ h2{
     align-items: center;
     text-decoration: underline;
     text-underline-offset: 2px;
+    font-size: 2rem;
     color: rgb(51, 51, 227)
     
 }
@@ -33,6 +34,7 @@ h2{
     justify-content: center;
     align-items: center;
     margin: 0% 25% 0% 25%;
+    padding-bottom: 2%;
     background-color: rgb(15, 122, 15, 0.5)
 }
 .projet:hover{
