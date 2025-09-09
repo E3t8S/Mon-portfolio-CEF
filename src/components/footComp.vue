@@ -30,6 +30,7 @@
         flex-wrap: nowrap;
         justify-content: space-evenly;
         align-items: center;
+        margin: 0% 40% 0% 40%;
         height: 100px;
     }
     .date{

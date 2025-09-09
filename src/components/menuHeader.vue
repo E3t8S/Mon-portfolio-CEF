@@ -1,7 +1,7 @@
 <template>
 
     <section class="first-container">
-        <a href="#" class="photo">
+        <a href="#top" class="photo">
             <img class="fleche" src="../assets/fleche-vers-le-haut.png" alt="Flèche permettant de remonter en haut dela page">
         </a>
         <h1 class="titre">Portfolio de Etienne Saclier</h1>  
@@ -10,13 +10,13 @@
         <nav>
             <ul class="second-container">
                 <li>
-                    <a href="#projects" style="text-decoration: none;">À propos de moi</a>
+                    <a href="#moi" style="text-decoration: none;">À propos de moi</a>
                 </li>
                 <li>
-                    <a href="#" style="text-decoration: none;">Mes projets</a>
+                    <a href="#projects" style="text-decoration: none;">Mes projets</a>
                 </li>
                 <li>
-                    <a href="#" style="text-decoration: none;">Contactez-moi</a>
+                    <a href="#contact" style="text-decoration: none;">Contactez-moi</a>
                 </li>
             </ul>
         </nav>
@@ -30,14 +30,14 @@
 <script setup>
 </script>
 
-<style>
+<style scoped>
 .first-container{
     display: flex;
     height: 100px;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
     background-color: rgb(15, 122, 15)
 }
 .fleche{

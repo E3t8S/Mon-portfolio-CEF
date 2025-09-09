@@ -1,6 +1,6 @@
 <template>
     <br>
-    <section class="about-me">
+    <section class="about-me" id="moi">
         <p>
             À la suite d'une courte carrière de basketteur professionnel, j'ai décidé de m'orienter dans le domaine de l'informatique, 
             plus particulièrement dans le développement web.            

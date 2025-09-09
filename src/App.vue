@@ -2,9 +2,9 @@
 import { RouterLink, RouterView } from 'vue-router'
 import menuHeader from './components/menuHeader.vue'
 import footComp from './components/footComp.vue'
-import aboutMe from './components/aboutMe.vue'
 import AboutMe from './components/aboutMe.vue'
 import myProjects from './components/myProjects.vue'
+import contactForm from './components/contactForm.vue'
 </script>
 
 <template>
@@ -20,7 +20,9 @@ import myProjects from './components/myProjects.vue'
     <section>
       <myProjects/>
     </section>
-
+    <section>
+      <contactForm/>
+    </section>
   </main>
 
   <footer>
@@ -29,9 +31,10 @@ import myProjects from './components/myProjects.vue'
 
 </template>
 
-<style scoped>
+<style>
   footer{
     background-color: rgb(15, 122, 15)
+    
   }
   main{
     background-color: yellow;
