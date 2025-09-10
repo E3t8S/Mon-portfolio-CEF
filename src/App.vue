@@ -32,6 +32,9 @@ import contactForm from './components/contactForm.vue'
 </template>
 
 <style>
+  header{
+    background-color:rgb(15, 122, 15) ;
+  }
   footer{
     background-color: rgb(15, 122, 15)
     
@@ -40,4 +43,27 @@ import contactForm from './components/contactForm.vue'
     background-color: yellow;
     
   }
+  h1{
+    font-family: "Quintessential", sans-serif;
+    font-weight: 700;
+    font-style: normal
+  }
+  h2{
+    font-family: "Quintessential", sans-serif;
+    font-weight: 300;
+    font-style: normal 
+  }
+  p{
+    font-family: "Quintessential", sans-serif;
+    font-weight: 250;
+    font-style: normal
+  }
+  h3{
+    font-family: "Quintessential", sans-serif;
+    font-weight: 200;
+    font-style: normal
+  }
+
+
+
 </style>

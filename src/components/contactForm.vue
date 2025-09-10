@@ -6,18 +6,18 @@
             <form action="mailto:saclieretienne@gmail.com" method="post" id="contact">
 
                 <label for="" class="ligne">Nom et Prénom : &nbsp
-                    <input type="text" placeholder="Nom Prénom">
+                    <input class="barre" type="text" placeholder="Nom Prénom">
                 </label>
                 
                 <label for="" class="ligne">Objet : &nbsp
-                    <input type="text" placeholder="Objet de votre message">
+                    <input class="barre" type="text" placeholder="Objet de votre message">
                 </label>
                 
                 <label for="" class="ligne">Message : &nbsp
-                    <textarea name="" id="" placeholder="Entrez votre message ici"></textarea>
+                    <textarea class="barre-msg" name="" id="" placeholder="Entrez votre message ici"></textarea>
                 </label>
 
-                <input type="submit" value="Envoyer" id="bouton">
+                <input class="soumission" type="submit" value="Envoyer" id="bouton">
 
             </form>
         
@@ -31,7 +31,7 @@
 </script>
 
 <style scoped>
-    h2{
+     h2{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -72,5 +72,33 @@
     }
     #bouton:hover{
         cursor: pointer;
+    }
+      label{
+    font-family: "Quintessential", sans-serif;
+    font-weight: 200;
+    font-style: normal
+    }
+    ::placeholder{
+    font-family: "Quintessential", sans-serif;
+    font-weight: 100;
+    font-style: normal
+    }
+    .barre:hover{
+        width: 13rem;
+    }
+    .barre-msg:hover{
+        width: 20rem;
+    }
+    .soumission{
+        font-size: 1rem;
+        font-family: "Quintessential", sans-serif;
+        font-weight: 250;
+        font-style: normal 
+    }
+    .soumission:hover{
+        border-style: double;
+        border-color: rgb(15, 122, 15);
+        background-color:  yellow;
+        color: rgb(51, 51, 227);
     }
 </style>

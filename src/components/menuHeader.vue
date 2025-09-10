@@ -36,10 +36,11 @@
     height: 100px;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center; 
-    background-color: rgb(15, 122, 15)
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 35% 0% 0.7%; 
 }
+
 .fleche{
     width: 3rem;
 }
@@ -53,19 +54,22 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    margin: 0;
+    margin: auto;
     padding-top: 0;
     list-style-type: none;
-    background-color: rgb(15, 122, 15)
 }
 h1{
-    font-size: 37px;
+    font-size: 2.5rem;
     text-decoration: underline rgb(213, 213, 47);
-    text-underline-offset: 3px;
+    text-underline-offset: 5px;
     color: rgb(51, 51, 227);
 }
 li{
-    font-size: 25px;
+    font-size: 1.5rem;
+    font-family: "Quintessential", sans-serif;
+    font-weight: 600;
+    font-style: normal
+    
 }
 nav ul li:hover{
     text-decoration: underline rgb(213, 213, 47);
