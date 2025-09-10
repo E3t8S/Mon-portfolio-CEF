@@ -44,5 +44,7 @@
     .social-media{
         width: 3rem;
     }
-
+    .social-media:hover{
+        width: 4rem;
+    }
 </style>

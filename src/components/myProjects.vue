@@ -42,4 +42,10 @@ h2{
     box-shadow: 5px 5px 5px rgb(15, 122, 15);
     cursor: pointer;
 }
+button:hover{
+    cursor: pointer;
+}
+.photo:hover{
+    width: 12rem;
+}
 </style>
