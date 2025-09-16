@@ -33,12 +33,13 @@
 <style scoped>
 .first-container{
     display: flex;
-    height: 100px;
+    height: 80px;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin: 0% 35% 0% 0.7%; 
+    margin: 0% 35% 0% 0.7%;
+     
 }
 
 .fleche{
@@ -49,7 +50,7 @@
 }
 .second-container{
     display: flex;
-    height: 75px;
+    height: 50px;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -57,6 +58,7 @@
     margin: auto;
     padding-top: 0;
     list-style-type: none;
+    
 }
 h1{
     font-size: 2.5rem;

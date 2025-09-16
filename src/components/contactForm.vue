@@ -47,9 +47,9 @@
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
-        margin: 0% 35% 0% 35%;
+        margin: 0% 35% 10% 35%;
         padding: 2rem;
-        background-color: rgb(15, 122, 15, 0.5)
+        background-color: rgb(15, 122, 15, 0.5);
 
     }
     form:hover{

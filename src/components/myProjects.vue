@@ -3,14 +3,38 @@
 
     <section class="projet">
         <h3>Mon curriculum vitae</h3>
-        <button>
+        <button id="bouton" v-on:click="toggleModale">
             <img class="photo" src="../assets/Etienne Saclier.jpg" alt="Une photo de moi">
         </button>
+        
+        
     </section>
+    <modale v-bind:revele="revele" v-bind:toggle-modale="toggleModale"/>
+
+
     <br>
 </template>
 
-<script setup>
+<script>
+    import MonModale from './monModale.vue';
+
+    export default{
+        name : 'Contenu',
+        data(){
+            return{
+                revele : false
+            }
+        },
+        components : {
+            'modale' : MonModale
+        },
+        methods: {
+            toggleModale: function(){
+                this.revele = !this.revele
+            }
+        }
+    }
+
 </script>
 
 <style scoped>
