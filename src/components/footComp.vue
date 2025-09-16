@@ -31,7 +31,7 @@
         justify-content: space-evenly;
         align-items: center;
         margin: 0% 40% 0% 40%;
-        height: 100px;
+        height: 50px;
     }
     .date{
         display: flex;
@@ -39,12 +39,12 @@
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        height: 50px;
+        height: 20px;
     }
     .social-media{
-        width: 3rem;
+        width: 2rem;
     }
     .social-media:hover{
-        width: 4rem;
+        width: 2.5rem;
     }
 </style>
