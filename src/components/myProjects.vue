@@ -59,7 +59,9 @@ h2{
     align-items: center;
     margin: 0% 25% 0% 25%;
     padding-bottom: 2%;
+    border-radius: 5%;
     background-color: rgb(15, 122, 15, 0.5)
+    
 }
 .projet:hover{
     text-decoration: underline;

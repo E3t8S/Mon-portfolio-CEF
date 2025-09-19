@@ -5,11 +5,20 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <RouterView/>
+
+  <body>
+    <RouterView/>
+  </body>
+  
 
 </template>
 
 <style>
+
+  body{
+    margin: 0%;
+  }
+
   header{
     position: fixed;
     top: 0;

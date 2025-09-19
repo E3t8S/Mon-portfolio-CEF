@@ -50,6 +50,7 @@
         margin: 0% 35% 10% 35%;
         padding: 2rem;
         background-color: rgb(15, 122, 15, 0.5);
+        border-radius: 20%;
 
     }
     form:hover{
