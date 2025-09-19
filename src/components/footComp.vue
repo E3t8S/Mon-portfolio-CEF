@@ -9,17 +9,15 @@
         </a>
     </section>
     <section class="date">
-        <small>Dernière mise à jour le : {{ date }}</small>
+        <small>Dernière mise à jour le :<time datetime="2025-09-19"> 19 Septembre 2025</time></small>
     </section>
+    
+    
 
 </template>
 
 <script setup>
-    defineProps({
-        date:{
-            type : String
-        }
-    })
+
 </script>
 
 <style>
@@ -33,13 +31,15 @@
         margin: 0% 40% 0% 40%;
         height: 50px;
     }
-    .date{
+     .date{ 
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        height: 20px;
+        font-size: 1rem;
+        height: 10px;
+
     }
     .social-media{
         width: 2rem;
