@@ -1,20 +1,21 @@
 <template>
-    <h2>Contactez-moi</h2>
+
+        <h2>Contactez-moi</h2>
 
     <section>
 
             <form action="mailto:saclieretienne@gmail.com" method="post" id="contact">
 
-                <label for="" class="ligne">Nom et Prénom : &nbsp
-                    <input class="barre" type="text" placeholder="Nom Prénom">
+                <label for="barre" class="ligne">Nom et Prénom : &nbsp;
+                    <input id="barre" type="text" placeholder="Nom Prénom">
                 </label>
                 
-                <label for="" class="ligne">Objet : &nbsp
-                    <input class="barre" type="text" placeholder="Objet de votre message">
+                <label for="barre-2" class="ligne">Objet : &nbsp;
+                    <input id="barre-2" type="text" placeholder="Objet de votre message">
                 </label>
                 
-                <label for="" class="ligne">Message : &nbsp
-                    <textarea class="barre-msg" name="" id="" placeholder="Entrez votre message ici"></textarea>
+                <label for="barre-msg" class="ligne">Message : &nbsp;
+                    <textarea name="barre-msg" id="barre-msg" placeholder="Entrez votre message ici"></textarea>
                 </label>
 
                 <input class="soumission" type="submit" value="Envoyer" id="bouton">
@@ -56,10 +57,10 @@
     form:hover{
         box-shadow: 5px 5px 5px rgb(15, 122, 15);
     }
-    .ligne{
+    .ligne{ 
         display: flex;
         flex-direction: row;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         padding: 1rem;
     }
@@ -74,7 +75,7 @@
     #bouton:hover{
         cursor: pointer;
     }
-      label{
+    label{
     font-family: "Quintessential", sans-serif;
     font-weight: 200;
     font-style: normal
@@ -84,10 +85,16 @@
     font-weight: 100;
     font-style: normal
     }
-    .barre:hover{
+    #barre:hover{
         width: 13rem;
     }
-    .barre-msg:hover{
+    #barre-msg:hover{
+        width: 20rem;
+    }
+    #barre-2:hover{
+        width: 13rem;
+    }
+    #barre-2-msg:hover{
         width: 20rem;
     }
     .soumission{

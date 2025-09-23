@@ -1,6 +1,6 @@
 <template>
     
-    <section class="modale" v-if="revele">
+     <section class="modale" v-if="revele" >
         
         <section class="fond-module" v-on:click="toggleModale"></section>
         
